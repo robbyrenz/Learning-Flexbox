@@ -7,6 +7,7 @@
 
 ## code learned
 - `flex-direction: row || column || row-reverse || column-reverse`
+- `min-height: 100vh`
 
 ## Tips
 - `flex-direction: row` is the default of any flex container
