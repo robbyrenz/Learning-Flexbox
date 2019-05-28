@@ -31,16 +31,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-}
-
-.box {
-  flex: 1; /* equally distributes the width of the flex items */
-}
-
-.box1 {
-  order: 1;
-}
-
-.box10 {
-  order: -1;
+  border: 10px solid mistyrose;
+  justify-content: center;
+  flex-direction: row;
+  min-height: 100vh;
 }
