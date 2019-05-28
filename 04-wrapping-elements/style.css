@@ -32,11 +32,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display: flex;
   border: 10px solid goldenrod;
-  min-height: 100vh;
+  height: 100vh;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .box {
-  width: 300px;
+  width: calc(20% - 20px); /* its 20px as there is 10px on each side */
+  border: 10px solid mistyrose;
+  margin: 10px;
 }
